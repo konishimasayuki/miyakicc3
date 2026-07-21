@@ -10,17 +10,17 @@
 <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&family=Cormorant+Garamond:wght@500;600&display=swap" rel="stylesheet">
 <style>
 :root{
-  --pine:#123a2c;
-  --pine-deep:#0e2c22;
-  --green:#2f6b4f;
+  --pine:#14352a;
+  --pine-deep:#0e2820;
+  --green:#1f6b48;
   --green-soft:#3f7256;
-  --brass:#2f7d5b;
-  --brass-light:#6fb08c;
-  --cream:#f2f6f2;
+  --brass:#1e6a48;
+  --brass-light:#4f9b78;
+  --cream:#f6f8f5;
   --paper:#ffffff;
-  --ink:#1c2b24;
-  --muted:#6a7770;
-  --line:#e3e9e3;
+  --ink:#232b28;
+  --muted:#707a74;
+  --line:#e7ebe7;
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
@@ -87,11 +87,11 @@ header.solid{background:rgba(12,38,30,.96);box-shadow:0 2px 24px rgba(0,0,0,.25)
 .hero .eyebrow,.hero h1,.hero p.lead,.hero .cta-row{transform:translateY(22px)}
 
 /* ---------- section frame ---------- */
-section.block{padding:6rem 0;position:relative}
-.sec-head{margin-bottom:3rem}
-.sec-head .kicker{display:inline-flex;align-items:center;gap:.7rem;color:var(--brass);font-family:"Cormorant Garamond",serif;letter-spacing:.34em;text-transform:uppercase;font-size:.82rem;margin-bottom:.8rem}
-.sec-head .kicker::before{content:"";width:34px;height:1px;background:var(--brass)}
-.sec-head h2{font-size:clamp(1.7rem,3.6vw,2.5rem);letter-spacing:.06em;color:var(--pine)}
+section.block{padding:7.5rem 0;position:relative}
+.sec-head{margin-bottom:3.6rem;text-align:center}
+.sec-head .kicker{display:inline-flex;align-items:center;justify-content:center;gap:.8rem;color:var(--brass);font-family:"Noto Sans JP",sans-serif;font-weight:700;letter-spacing:.34em;text-transform:uppercase;font-size:.72rem;margin-bottom:1rem}
+.sec-head .kicker::before,.sec-head .kicker::after{content:"";width:30px;height:1px;background:var(--brass);opacity:.7}
+.sec-head h2{font-size:clamp(1.7rem,3.6vw,2.4rem);letter-spacing:.1em;color:var(--pine);font-weight:700}
 .sec-head.center{text-align:center}
 .sec-head.center .kicker{justify-content:center}
 .tint{background:var(--cream)}
